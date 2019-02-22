@@ -9,3 +9,54 @@ img {
   max-width: 250px;
   border-radius: 35px;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid #3b5998;
+  width: 24px;
+}
+
+li#facebook {
+  color: #3b5998;
+}
+
+li#facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+li#twitter {
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+li#twitter:hover {
+  background-color: #1DA1F2;
+  color: #fff;
+}
+
+li#instagram {
+  color: #bc2a8d;
+  border-color: #bc2a8d;
+}
+
+li#instagram:hover {
+  background-image: linear-gradient(to bottom left, #bc2a8d, #e95950);
+  color: #fff;
+}
+
+li#linkedin {
+  color: #0077B5;
+  border-color: #0077B5;
+}
+
+li#linkedin:hover {
+  background-color: #0077B5;
+  color: #fff;
+}
