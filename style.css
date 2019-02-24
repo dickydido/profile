@@ -2,36 +2,71 @@ body {
   font-family: 'Muli', sans-serif;
   margin: 0;
 }
-.header {
-  max-width: 1024px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
 
 .header-con {
   background-color: #202830;
   color: #fff;
+}
+
+.header {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  max-width: 50%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
   font-family: Raleway;
+  margin-left: 12px;
 }
 
 img {
-  max-width: 250px;
+  max-width: 225px;
   border-radius: 35px;
+  background-color: #949ca5;
+  padding: 8px;
 }
 
 h1 {
   margin-bottom: 8px;
+  font-size: 30px;
+  margin-top: 12px;
 }
 
 .header h3 {
   margin: 0;
 }
 
+.description {
+  max-width: 50%;
+  display: inline-block;
+  padding: 10px 50px;
+  border: 1px solid #fff;
+  margin-left: 40px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.social-con {
+  margin: 20px;
+}
+
 .social-icons {
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+  border: 1px solid #202830;
+}
+
+.social-icons h3 {
+  border-bottom: 1px solid #202830;
+  padding-bottom: 10px;
+  max-width: 500px;
+  margin: 20px auto;
 }
 
 ul {
