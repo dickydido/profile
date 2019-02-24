@@ -4,12 +4,12 @@ body {
   color: #202830;
 }
 
-.header-con {
+.header-con, .pod-con {
   background-color: #202830;
   color: #fff;
 }
 
-.header {
+.header, .col-2 {
   max-width: 1024px;
   margin: 0 auto;
   padding: 20px;
@@ -36,6 +36,39 @@ h1 {
   margin-bottom: 8px;
   font-size: 30px;
   margin-top: 12px;
+}
+
+.pod-con {
+  padding: 20px 0;
+}
+
+.col-2 {
+  border: 1px solid #fff;
+  padding: 0 20px;
+}
+
+.podcast {
+  border-right: 1px solid #fff;
+}
+
+.podcast, .contact {
+  max-width: 1024px;
+  margin: 20px auto;
+  width: 45%;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.podcast h2, .contact h2 {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  margin-top: 5px;
+  color: #fff;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
