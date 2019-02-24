@@ -58,6 +58,7 @@ h1 {
   display: inline-block;
   padding: 0 20px;
   text-align: left;
+  vertical-align: top;
 }
 
 .podcast h2, .contact h2 {
@@ -238,7 +239,7 @@ h2 {
 }
 
 .social-con {
-  margin: 20px;
+  margin: 50px;
 }
 
 .social-icons {
@@ -332,4 +333,5 @@ li#letterboxd:hover {
 
 .footer p {
   margin: 0;
+  padding: 20px;
 }
