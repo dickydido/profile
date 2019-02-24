@@ -1,4 +1,5 @@
 window.onload = function() {
+
 //Copyright year.
 var today = new Date();
 var year = document.createTextNode(today.getFullYear());

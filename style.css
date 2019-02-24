@@ -38,11 +38,8 @@ h1 {
   margin-top: 12px;
 }
 
-h2 {
-  font-family: Raleway;
-  border-bottom: 1px solid #202830;
-  padding: 10px;
-  margin-top: 5px;
+li {
+  display: inline-block;
 }
 
 .header h3 {
@@ -53,33 +50,77 @@ a {
   text-decoration: none;
 }
 
-a h2 {
-  text-decoration: none;
-  color: #202830;
+.webdev-links a li {
   position: relative;
   transition:color 0.25s ease;
+  padding: 16px;
+  width: 110px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Raleway;
 }
 
-a h2:hover {
+.webdev-links a li#blog:hover, .webdev-links a li#github:hover, .webdev-links a li#codepen:hover {
   color: #fff;
   transition: 0.5s ease;
 }
 
-a h2::after {
+.webdev-links a li#blog::after {
   position: absolute;
   content: '';
   top:0;
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #202830;
+  background-color: #46ad46;
   transform-origin:left;
   transition:width 0.35s ease;
   z-index:-1;
 }
 
-a h2:hover::after {
+.webdev-links a li#github::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #e05f5f;
+  transform-origin:left;
+  transition:width 0.35s ease;
+  z-index:-1;
+}
+
+.webdev-links a li#codepen::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #4c99e8;
+  transform-origin:left;
+  transition:width 0.35s ease;
+  z-index:-1;
+}
+
+.webdev-links a li#blog:hover::after, .webdev-links a li#github:hover::after, .webdev-links a li#codepen:hover::after {
   width: 100%;
+}
+
+li#blog {
+  color: #46ad46;
+  border: 1px solid #46ad46;
+}
+
+li#github {
+  color: #e05f5f;
+  border: 1px solid #e05f5f;
+}
+
+li#codepen {
+  color: #4c99e8;
+  border: 1px solid #4c99e8;
 }
 
 .description {
@@ -98,20 +139,15 @@ a h2:hover::after {
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid #202830;
   margin-top: 20px;
+  padding: 10px;
 }
 
-.blog, .github {
-  width: 45%;
-  display: inline-block;
-  padding: 0 20px;
-  margin: 15px 0;
-  text-align: left;
-}
-
-.blog {
-  border-right: 1px solid #202830;
+h2 {
+  border-bottom: 1px solid #202830;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .social-con {
@@ -136,8 +172,7 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline-block;
+.social-icons li {
   font-size: 24px;
   padding: 10px;
   border: 1px solid #3b5998;
@@ -206,4 +241,8 @@ li#letterboxd:hover {
 .footer {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
 }
