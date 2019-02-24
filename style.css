@@ -1,16 +1,37 @@
 body {
   font-family: 'Muli', sans-serif;
+  margin: 0;
 }
-.content {
+.header {
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+  padding: 20px;
+}
+
+.header-con {
+  background-color: #202830;
+  color: #fff;
   font-family: Raleway;
 }
 
 img {
   max-width: 250px;
   border-radius: 35px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.social-icons {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul {
@@ -77,4 +98,14 @@ li#letterboxd {
 li#letterboxd:hover {
   background-color: #2c3440;
   color: #9ab;
+}
+
+.footer-con {
+  background-color: #202830;
+  color: #fff;
+}
+
+.footer {
+  max-width: 1024px;
+  margin: 0 auto;
 }
