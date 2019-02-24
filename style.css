@@ -74,7 +74,7 @@ a {
   height: 100%;
   background-color: #46ad46;
   transform-origin:left;
-  transition:width 0.35s ease;
+  transition:width 0.25s ease;
   z-index:-1;
 }
 
@@ -87,7 +87,7 @@ a {
   height: 100%;
   background-color: #e05f5f;
   transform-origin:left;
-  transition:width 0.35s ease;
+  transition:width 0.25s ease;
   z-index:-1;
 }
 
@@ -100,7 +100,7 @@ a {
   height: 100%;
   background-color: #4c99e8;
   transform-origin:left;
-  transition:width 0.35s ease;
+  transition:width 0.25s ease;
   z-index:-1;
 }
 
