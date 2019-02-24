@@ -1,6 +1,7 @@
 body {
   font-family: 'Muli', sans-serif;
   margin: 0;
+  color: #202830;
 }
 
 .header-con {
@@ -12,6 +13,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 .title {
@@ -21,7 +23,6 @@ body {
   vertical-align: middle;
   margin-right: 10px;
   font-family: Raleway;
-  margin-left: 12px;
 }
 
 img {
@@ -37,8 +38,48 @@ h1 {
   margin-top: 12px;
 }
 
+h2 {
+  font-family: Raleway;
+  border-bottom: 1px solid #202830;
+  padding: 10px;
+  margin-top: 5px;
+}
+
 .header h3 {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a h2 {
+  text-decoration: none;
+  color: #202830;
+  position: relative;
+  transition:color 0.25s ease;
+}
+
+a h2:hover {
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+a h2::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #202830;
+  transform-origin:left;
+  transition:width 0.35s ease;
+  z-index:-1;
+}
+
+a h2:hover::after {
+  width: 100%;
 }
 
 .description {
@@ -50,6 +91,27 @@ h1 {
   border-radius: 20px;
   vertical-align: middle;
   background-color: #353f4a;
+  text-align: left;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #202830;
+  margin-top: 20px;
+}
+
+.blog, .github {
+  width: 45%;
+  display: inline-block;
+  padding: 0 20px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.blog {
+  border-right: 1px solid #202830;
 }
 
 .social-con {
