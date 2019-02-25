@@ -143,7 +143,7 @@ a {
   margin: 20px;
 }
 
-.webdev-links a li, .webdev-links a li:focus {
+.webdev-links a li {
   position: relative;
   transition:color 0.25s ease;
   padding: 16px;
@@ -153,12 +153,12 @@ a {
   font-family: Raleway;
 }
 
-.webdev-links a li#blog:hover, .webdev-links a li#blog:focus, .webdev-links a li#github:hover, .webdev-links a li#github:focus, .webdev-links a li#codepen:hover, .webdev-links a li#codepen:focus {
+.webdev-links a li#blog:hover, .webdev-links a li#github:hover, .webdev-links a li#codepen:hover {
   color: #fff;
   transition: 0.5s ease;
 }
 
-.webdev-links a li#blog::after, .webdev-links a li#blog:focus {
+.webdev-links a li#blog::after {
   position: absolute;
   content: '';
   top:0;
@@ -411,6 +411,7 @@ li#letterboxd:hover {
   text-decoration: underline;
 }
 
+
 @media only screen and (max-width: 853px) {
   .title {
     max-width: 100%;
@@ -419,6 +420,12 @@ li#letterboxd:hover {
     margin: 0 auto;
     max-width: 100%;
     margin-top: 30px;
+  }
+  .contact-content a h3::after {
+    background: none;
+  }
+  .contact-content a h3:hover {
+    color: #fff;
   }
 }
 
