@@ -143,7 +143,7 @@ a {
   margin: 20px;
 }
 
-.webdev-links a li {
+.webdev-links a li, .webdev-links a li:focus {
   position: relative;
   transition:color 0.25s ease;
   padding: 16px;
@@ -158,7 +158,7 @@ a {
   transition: 0.5s ease;
 }
 
-.webdev-links a li#blog::after {
+.webdev-links a li#blog::after, .webdev-links a li#blog:focus {
   position: absolute;
   content: '';
   top:0;
