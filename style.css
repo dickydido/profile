@@ -238,6 +238,56 @@ h2 {
   padding: 10px;
 }
 
+.contact-content {
+  background-color: #353f4a;
+  color: #fff;
+  height: 200px;
+  max-width: 400px;
+  text-align: center;
+  margin: 53px auto;
+  border: 1px solid #fff;
+}
+
+.contact-content a h3 {
+  position: relative;
+  transition:color 0.25s ease;
+  font-family: Raleway;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 130px;
+  margin: 37px auto;
+  padding: 10px;
+  z-index: 0;
+}
+
+.contact-content a h3:hover {
+  color: #353f4a;
+  transition: 0.5s ease;
+  z-index: 0;
+}
+
+.contact-content a h3::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  z-index: -1;
+}
+
+.contact-content a h3:hover::after {
+  width: 100%;
+}
+
+.contact-content h3 {
+  color: #46ad46;
+  border: 1px solid #46ad46;
+}
+
 .social-con {
   margin: 50px;
 }
