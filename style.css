@@ -25,11 +25,10 @@ body {
   font-family: Raleway;
 }
 
-img {
+.title img {
   max-width: 225px;
-  border-radius: 35px;
-  background-color: #949ca5;
-  padding: 8px;
+  border-radius: 100%;
+  border: 4px solid #fff;
 }
 
 h1 {
@@ -39,7 +38,7 @@ h1 {
 }
 
 .pod-con {
-  padding: 20px 0;
+  padding: 100px 0;
 }
 
 .col-2 {
@@ -88,6 +87,11 @@ h1 {
   padding: 10px;
   vertical-align: middle;
   display: inline-block;
+}
+
+.pod-web span {
+  position: relative;
+  top: 11px;
 }
 
 .itunes {
@@ -216,17 +220,19 @@ li#codepen {
   max-width: 50%;
   display: inline-block;
   padding: 10px 50px;
-  border: 1px solid #fff;
   margin-left: 40px;
-  border-radius: 20px;
   vertical-align: middle;
-  background-color: #353f4a;
+  background-color: #ffffff38;
   text-align: left;
+}
+
+.header-con {
+  padding: 20px;
 }
 
 .container {
   max-width: 1024px;
-  margin: 20px auto;
+  margin: 100px auto;
   text-align: center;
   padding: 10px;
 }
@@ -289,7 +295,7 @@ h2 {
 }
 
 .social-con {
-  margin: 50px;
+  margin: 80px;
 }
 
 .social-icons {
