@@ -422,8 +422,9 @@ li#letterboxd:hover {
     margin-top: 30px;
   }
   .contact-content a h3::after {
-    background: none;
+    display: none;
   }
+
   .contact-content a h3:hover {
     color: #fff;
   }
