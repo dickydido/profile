@@ -391,3 +391,42 @@ li#letterboxd:hover {
   margin: 0;
   padding: 20px;
 }
+
+.description p {
+  margin-bottom: 10px;
+}
+
+#myBtn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  display: none;
+}
+
+@media only screen and (max-width: 853px) {
+  .title {
+    max-width: 100%;
+  }
+  .description {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .title img {
+    max-width: 180px;
+  }
+  .description {
+    padding: 0;
+    background: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #more {
+    display: none;
+  }
+}
