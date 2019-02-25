@@ -153,7 +153,7 @@ a {
   font-family: Raleway;
 }
 
-.webdev-links a li#blog:hover, .webdev-links a li#github:hover, .webdev-links a li#codepen:hover {
+.webdev-links a li#blog:hover, .webdev-links a li#blog:focus, .webdev-links a li#github:hover, .webdev-links a li#github:focus, .webdev-links a li#codepen:hover, .webdev-links a li#codepen:focus {
   color: #fff;
   transition: 0.5s ease;
 }
@@ -402,7 +402,13 @@ li#letterboxd:hover {
   color: #fff;
   font-size: 16px;
   font-family: 'Muli', sans-serif;
-  display: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#myBtn:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 853px) {
@@ -425,8 +431,5 @@ li#letterboxd:hover {
     background: none;
     text-align: center;
     margin-top: 10px;
-  }
-  #more {
-    display: none;
   }
 }

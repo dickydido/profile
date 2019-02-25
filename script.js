@@ -13,6 +13,8 @@ copyright.appendChild(year);
 var button = document.getElementById('myBtn');
 var moreText = document.getElementById('more');
 
+button.style.cursor = "pointer";
+
 //Function that displays the elements if width matches certain screen widths.
 function display(width) {
   if (width.matches) {
