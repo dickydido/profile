@@ -421,6 +421,18 @@ li#letterboxd:hover {
     max-width: 100%;
     margin-top: 30px;
   }
+  .webdev-links a li::after {
+    display: none;
+  }
+  .webdev-links a li#blog:hover {
+    color: #46ad46;
+  }
+  .webdev-links a li#github:hover {
+    color: #e05f5f;
+  }
+  .webdev-links a li#codepen:hover {
+    color: #4c99e8;
+  }
   .contact-content a h3::after {
     display: none;
   }
