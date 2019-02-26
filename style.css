@@ -533,3 +533,16 @@ li#letterboxd:hover {
     border: none;
   }
 }
+
+@media only screen and (max-width: 379px) {
+  .podcast {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .social-icons li {
+    margin: 0;
+    width: 22px;
+  }
+}
