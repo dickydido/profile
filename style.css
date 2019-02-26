@@ -460,6 +460,12 @@ li#letterboxd:hover {
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .social-icons {
+    border: none;
+  }
+}
+
 @media only screen and (max-width: 570px) {
   .title img {
     max-width: 180px;
@@ -469,6 +475,9 @@ li#letterboxd:hover {
     background: none;
     text-align: center;
     margin-top: 10px;
+  }
+  .social-con {
+    margin: 80px 40px;
   }
 }
 
@@ -516,5 +525,11 @@ li#letterboxd:hover {
   .artwork h3 {
     padding: 0;
     padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .social-icons h3 {
+    border: none;
   }
 }
