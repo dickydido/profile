@@ -68,6 +68,12 @@ h1 {
   text-align: left;
 }
 
+.podcast h2:hover, .contact h2:hover {
+  background-color: #fff;
+  color: #202830;
+  transition: 0.5s ease;
+}
+
 .podcast h3 {
   font-size: 24px;
   text-align: center;
